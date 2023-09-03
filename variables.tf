@@ -16,7 +16,7 @@ variable "billing_code" {
 variable "prefix" {
   type        = string
   description = "(Optional) Prefix to use for all resources in this module. Default: globo-dev"
-  default     = "globo-dev"
+  default     = "globo-dev-123"
 }
 
 variable "environment" {
